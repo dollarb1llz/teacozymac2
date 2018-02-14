@@ -17,6 +17,7 @@ header {
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 header nav {
   margin-right: 10px;
@@ -29,4 +30,41 @@ header nav a {
 header img {
   height: 50px;
   margin-left: 10px;
+}
+.mission-container {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+  background-image: url('../images/img-mission-background.jpg');
+  background-size: cover;
+}
+.mission-child {
+  width: 1200px;
+  background-color: black;
+}
+.tea-main {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.three-teas-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.three-teas-imgs img {
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+}
+.three-teas-desc {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.three-teas-desc h4 {
+  width: 300px;
 }
